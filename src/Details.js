@@ -35,61 +35,54 @@ export const logos = {
 
 // Enter your Personal Details here
 export const personalDetails = {
-  name: "Pavan MG",
-  tagline: "I build things for web",
+  name: "Nenita Espinosa",
+  tagline: "I build modern and responsive web applications.",
   img: profile,
-  about: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.`,
+  about: `I am a fullstack software engineer with a passion for design.  I strive for excellence in 
+  everything I do and with everyone I interact with.`,
 };
 
 // Enter your Social Media URLs here
 export const socialMediaUrl = {
-  linkdein: "https://www.linkedin.com/",
-  github: "https://www.github.com/",
-  twitter: "https://twitter.com/",
-  instagram: "https://www.instagram.com/",
+  linkdein: "https://www.linkedin.com/in/nenitae/",
+  github: "https://github.com/nenitaE"
 };
 
 // Enter your Work Experience here
 export const workDetails = [
-  {
-    Position: "Frontend Web Developer",
-    Company: `Company Name here`,
-    Location: "Bengaluru",
-    Type: "Full Time",
-    Duration: "Sep 2021 - Dec 2021",
-  },
-  {
-    Position: "Internship",
-    Company: `Company Name here`,
-    Location: "Bengaluru",
-    Type: "Internship",
-    Duration: "Sep 2021 - Dec 2021",
-  },
-  {
-    Position: "Internship",
-    Company: `Company Name here`,
-    Location: "Bengaluru",
-    Type: "Internship",
-    Duration: "Sep 2021 - Dec 2021",
-  },
+  
 ];
 
 // Enter your Education Details here
 export const eduDetails = [
   {
-    Position: "Frontend Development",
-    Company: "Udemy, YouTube, Google, Medium",
+    Position: "Sofware Engineer Bootcamp",
+    Company: "App Academy",
     Location: "Online",
-    Type: "Full Time",
-    Duration: "Jan 2022 - Present",
+    Type: "Part Time",
+    Duration: "Sep 2022 - Sep 2023",
   },
   {
-    Position: "Bachelor in Electronics & Communication",
-    Company: `Your College Name here`,
-    Location: "Bengaluru",
-    Type: "Full Time",
-    Duration: "Aug 2020 - Present",
+    Position: "Fintech Bootcamp",
+    Company: `University of North Carolina at Charlotte`,
+    Location: "Online",
+    Type: "Part Time",
+    Duration: "Feb 2021 - Aug 2021",
   },
+  {
+    Position: "Doctor of Physical Therapy",
+    Company: `Belmont University`,
+    Location: "Nashville, TN",
+    Type: "Full Time",
+    Duration: "Aug 2008",
+  },
+  {
+    Position: "Bachelor of Arts in Economics and Spanish",
+    Company: `University of North Carolina at Chapel Hill`,
+    Location: "Chapel Hill, NC",
+    Type: "Full Time",
+    Duration: "May 2000",
+  }
 ];
 
 // Tech Stack and Tools
@@ -99,77 +92,49 @@ export const techStackDetails = {
   js: js,
   react: react,
   redux: redux,
-  sass: sass,
-  tailwind: tailwind,
-  bootstrap: bootstrap,
   vscode: vscode,
   postman: postman,
   npm: npm,
   git: git,
-  github: github,
-  figma: figma,
+  github: github
 };
 
 // Enter your Project Details here
 export const projectDetails = [
   {
-    title: "Project title 1",
+    title: "taskWabbit",
     image: projectImage1,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    description: `A web application inspired by taskRabbit.com. 
+    It allows users to book local individuals to complete task related jobs such as 
+    painting, yard work, furniture building, etc. Allows a user to sign up as a “tasker”
+    and set prices for different tasks they are available to perform.`,
+    techstack: "HTML/CSS, JavaScript, Python, React, Redux, SqlAlchemy",
+    previewLink: "https://taskwabbit.onrender.com/",
+    githubLink: "https://github.com/nenitaE/TaskWabbit",
   },
   {
-    title: "Project title 2",
+    title: "PT Connect",
     image: projectImage2,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    description: `An app that allows physical therapists and their patients to create an 
+    account and connect with each other (similar to friend request). Once connected the 
+    therapist can create exercise prescriptions that the patient can view and follow. The 
+    therapist and patient can also interact via a messaging feature.`,
+    techstack: "HTML/CSS, JavaScript, Python, React, Redux, SqlAlchemy",
+    previewLink: "https://rehabportal.onrender.com/",
+    githubLink: "https://github.com/nenitaE/PTConnect",
   },
   {
-    title: "Project title 3",
+    title: "FlairBnB",
     image: projectImage3,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
-  },
-  {
-    title: "Project title 4",
-    image: projectImage4,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
-  },
-  {
-    title: "Project title 5",
-    image: projectImage5,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
-  },
-  {
-    title: "Project title 6",
-    image: projectImage6,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
-  },
+    description: `An app inspired by AirBnB. Allows owners to create listings of properties for 
+    short term rentals. Users are able to view the properties and leave reviews.`,
+    techstack: "HTML/CSS, JavaScript, Redux, React",
+    previewLink: "https://nenitae-airbnb.onrender.com/",
+    githubLink: "https://github.com/nenitaE/AirBnB_project",
+  }
 ];
 
 // Enter your Contact Details here
 export const contactDetails = {
-  email: "hi@example.com",
-  phone: "+91 12345 67890",
+  email: "nenitaespinosa@gmail.com"
 };
