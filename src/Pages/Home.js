@@ -69,7 +69,7 @@ function Home() {
           ref={h12}
           className="text-2xl bg-clip-text bg-gradient text-transparent md:text-4xl xl:text-5xl xl:leading-tight font-bold"
         >
-          {name}
+          {name}.
         </h1>
         <h2
           ref={h13}

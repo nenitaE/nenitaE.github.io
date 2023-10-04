@@ -139,7 +139,7 @@ export const projectDetails = [
     image: projectImage3,
     description: `An app inspired by AirBnB. Allows owners to create listings of properties for 
     short term rentals. Users are able to view the properties and leave reviews.`,
-    techstack: "HTML/CSS, JavaScript, Redux, React",
+    techstack: "HTML/CSS, JavaScript, Redux, React, Express",
     previewLink: "https://nenitae-airbnb.onrender.com/",
     githubLink: "https://github.com/nenitaE/AirBnB_project",
   }
