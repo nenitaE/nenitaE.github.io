@@ -1,31 +1,33 @@
 // Enter all your detials in this file
 // Logo images
 import logogradient from "./assets/logo.svg";
-import logo from "./assets/logo2.svg";
+import logo from "./assets/logo.jpg";
 // Profile Image
 import profile from "./assets/profile.jpg";
 // Tech stack images
 import html from "./assets/techstack/html.png";
 import css from "./assets/techstack/css.png";
-import sass from "./assets/techstack/sass.png";
 import js from "./assets/techstack/js.png";
+import python from "./assets/techstack/python.png"
 import react from "./assets/techstack/react.png";
+import nodejs from "./assets/techstack/nodejs.png"
 import redux from "./assets/techstack/redux.png";
-import tailwind from "./assets/techstack/tailwind.png";
-import bootstrap from "./assets/techstack/bootstrap.png";
+import flask from "./assets/techstack/flask.png";
+import sql from "./assets/techstack/sql.png";
+import sqla from "./assets/techstack/sqla.png";
+import sequelize from "./assets/techstack/sequelize.png";
+import express from "./assets/techstack/express.png";
+import postgresql from "./assets/techstack/postgresql.png";
+import solidity from "./assets/techstack/solidity.png"
 import vscode from "./assets/techstack/vscode.png";
 import github from "./assets/techstack/github.png";
 import git from "./assets/techstack/git.png";
 import npm from "./assets/techstack/npm.png";
 import postman from "./assets/techstack/postman.png";
-import figma from "./assets/techstack/figma.png";
 // Porject Images
 import projectImage1 from "./assets/projects/project1.jpg";
 import projectImage2 from "./assets/projects/project2.jpg";
 import projectImage3 from "./assets/projects/project3.jpg";
-import projectImage4 from "./assets/projects/project4.jpg";
-import projectImage5 from "./assets/projects/project5.jpg";
-import projectImage6 from "./assets/projects/project6.jpg";
 
 // Logos
 export const logos = {
@@ -90,8 +92,17 @@ export const techStackDetails = {
   html: html,
   css: css,
   js: js,
+  python: python,
   react: react,
   redux: redux,
+  sql: sql,
+  sqla: sqla,
+  postgresql: postgresql,
+  flask: flask,
+  express: express,
+  sequelize: sequelize,
+  nodejs: nodejs,
+  solidity: solidity,
   vscode: vscode,
   postman: postman,
   npm: npm,
