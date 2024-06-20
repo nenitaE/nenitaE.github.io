@@ -40,8 +40,14 @@ export const personalDetails = {
   name: "Nenita Espinosa",
   tagline: "I build modern and responsive web applications.",
   img: profile,
-  about: `I am a fullstack software engineer with a passion for design.  I strive for excellence in 
-  everything I do and with everyone I interact with.`,
+  about: `I am a fullstack software engineer with a passion for design.  
+  My greatest strength is that I am very detail-oriented with astute problem-solving 
+  and strategic thinking skills. I am a proven leader who loves to connect with 
+  people of all ages and from different backgrounds in order to gain wisdom from 
+  the life experiences of others. I am passionate about learning and can always 
+  be found learning something new-- whether it's a new coding language, recipe, 
+  or home improvement skill. My motto in life is "strive for excellence in every 
+  endeavor and every interaction".`,
 };
 
 // Enter your Social Media URLs here
