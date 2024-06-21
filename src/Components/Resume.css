@@ -1,0 +1,10 @@
+.resume_button {
+    padding: 5px 12px;
+    color: lightgrey;
+    border: 1.5px #200054;
+    border-radius: 3px;
+    background-color: rgba(32, 0, 84, .7);
+    text-decoration: none;
+    text-align: center;
+    justify-content: center; 
+}   

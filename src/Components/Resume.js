@@ -1,5 +1,6 @@
 import React from 'react';
 import { saveAs } from 'file-saver';
+import './Resume.css'
 
 const ResumeDownloadButton = () => {
   const handleDownload = () => {
@@ -8,7 +9,7 @@ const ResumeDownloadButton = () => {
   };
 
   return (
-    <button onClick={handleDownload}>
+    <button className='resume_button' onClick={handleDownload}>
       Download Resume
     </button>
   );
