@@ -1,4 +1,4 @@
-// Enter all your detials in this file
+
 // Logo images
 import logogradient from "./assets/logo.svg";
 import logo from "./assets/logo.jpg";
@@ -24,10 +24,12 @@ import github from "./assets/techstack/github.png";
 import git from "./assets/techstack/git.png";
 import npm from "./assets/techstack/npm.png";
 import postman from "./assets/techstack/postman.png";
-// Porject Images
+// Project Images
 import projectImage1 from "./assets/projects/project1.jpg";
 import projectImage2 from "./assets/projects/project2.jpg";
 import projectImage3 from "./assets/projects/project3.jpg";
+// Resume
+import ResumeDownloadButton from "./Components/Resume"
 
 // Logos
 export const logos = {
